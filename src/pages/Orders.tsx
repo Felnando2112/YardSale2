@@ -1,4 +1,4 @@
-import React,{useContext} from 'react';
+import {useContext} from 'react';
 import AppContext from '../context/AppContext.tsx';
 import Order from '../components/Order.tsx';
 import '../styles/Order.css';
@@ -10,7 +10,7 @@ const Orders = () => {
 			<div className="Orders-container">
 				<h1 className="title">My orders</h1>
 				<div className="Orders-content">
-				{state.cart.map(product =>(
+				{state.cart.map(() =>(
 				<Order/>
 				))}
 				</div>

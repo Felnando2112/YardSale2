@@ -12,7 +12,7 @@ import { UserRound } from 'lucide-react';
 	
 	const [ToggleCat, setToggleCat] = useState(false);
 	const [toggleOrders, setToggleOrders] = useState(false);
-	const {state,getUser,removeUser} = useContext(AppContext);
+	const {state,getUser} = useContext(AppContext);
 	
 
 

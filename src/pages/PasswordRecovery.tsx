@@ -1,4 +1,3 @@
-import React from 'react';
 import { Formik, Field, Form, FormikHelpers } from 'formik';
 import {useNavigate} from 'react-router-dom'
 import '../styles/PasswordRecovery.css';

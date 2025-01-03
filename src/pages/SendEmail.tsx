@@ -1,4 +1,3 @@
-import React from 'react';
 import '../styles/SendEmail.css';
 import email from '../assets/icons/email.svg'
 

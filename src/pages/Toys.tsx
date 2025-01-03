@@ -1,4 +1,3 @@
-import React from 'react';
 import PrincipalProductList from '../containers/PrincipalProductList.tsx';
 import ProductCarousel from '../components/ProductCarousel.tsx';
 import ProductList from '../containers/ProductList.tsx';

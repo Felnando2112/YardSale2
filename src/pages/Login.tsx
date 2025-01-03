@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import {useState} from 'react';
 import { Formik, Field, Form, FormikHelpers } from 'formik';
 import '../styles/Login.css';
 
@@ -24,6 +24,7 @@ const Login = () => {
           { setSubmitting,setFieldValue }: FormikHelpers<Values>
         ) => {
           setTimeout(() => {
+            console.log(values);
             setFieldValue('email', '');
             setFieldValue('password', '');
             setSubmitting(false);

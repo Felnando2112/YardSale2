@@ -3,12 +3,7 @@ import { ArrowBigLeft, ArrowBigRight,CircleDot,Circle} from "lucide-react";
 import "../styles/ProductCarousel.css";
 
 
-type ImageSliderProps = {
-    products: {
-      url: string
-      alt: string
-    }[]
-  }
+
 
   interface Props {
     products: {

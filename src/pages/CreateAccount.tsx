@@ -1,4 +1,4 @@
-import React,{useContext} from 'react';
+import {useContext} from 'react';
 import AppContext from '../context/AppContext';
 import { Formik, Field, Form, FormikHelpers } from 'formik';
 import '../styles/CreateAccount.css';
