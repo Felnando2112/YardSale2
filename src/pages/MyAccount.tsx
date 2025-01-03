@@ -25,7 +25,7 @@ const MyAccount = () => {
 
 	const handleLogOut = () => {
 		removeUser();
-		navigate("/YardSale");
+		navigate("/");
 	}
 
 

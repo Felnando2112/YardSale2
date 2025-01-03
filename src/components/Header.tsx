@@ -31,7 +31,7 @@ import { UserRound } from 'lucide-react';
 				<img src={logo} alt="logo" className="nav-logo" />
 				<ul>
 					<li>
-						<a href="/YardSale">All</a>
+						<a href="/">All</a>
 					</li>
 					<li>
 						<a href="/Clothes">Clothes</a>

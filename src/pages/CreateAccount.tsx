@@ -32,7 +32,7 @@ const CreateAccount = () => {
           setTimeout(() => {
             createUser(values);
             setSubmitting(false);
-            navigate("/YardSale");
+            navigate("/");
           }, 500);
         }}
       >
